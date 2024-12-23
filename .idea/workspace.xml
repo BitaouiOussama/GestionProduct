@@ -1,33 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="671859fa-9770-4087-b87e-049927507ee0" name="Changes" comment="" />
+    <list default="true" id="671859fa-9770-4087-b87e-049927507ee0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/ClientServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/dao/entities/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/dao/repositories/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/dto/ClientDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/mapper/ClientMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/service/ClientManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/service/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/java/com/example/clientservice/web/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-service/src/test/java/com/example/clientservice/ClientServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/ProductServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/dao/entities/Produit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/dao/repositories/ProduitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/dtos/ProduitDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/service/ProduitManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/service/ProduitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/web/ProduitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/web/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/test/java/com/example/productservice/ProductServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/src/main/java/com/example/salesmanagement/SalesManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/src/main/java/com/example/salesmanagement/dao/entities/Vente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/src/main/java/com/example/salesmanagement/dao/repositories/VenteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/src/main/java/com/example/salesmanagement/dto/ClientDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/src/main/java/com/example/salesmanagement/dto/ProduitDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/src/main/java/com/example/salesmanagement/dto/VenteDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/src/main/java/com/example/salesmanagement/feignRepos/ClientFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/src/main/java/com/example/salesmanagement/feignRepos/ProduitFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/src/main/java/com/example/salesmanagement/mapper/VenteMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/src/main/java/com/example/salesmanagement/service/VenteManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesManagement/src/test/java/com/example/salesmanagement/SalesManagementApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestionProduct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GestionProduct.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Auth-service" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2okye5pE0xndls8cqE75LGPsaxS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "<unknown>",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "last_opened_file_path": "C:/Users/oussa/OneDrive/Desktop/Projects/PFA4eme/BiblioSmart",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductServiceApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.authservice.AuthServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.authservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.clientservice.ClientServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.productservice.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="salesManagement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.salesmanagement.SalesManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AuthServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,7 +188,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731427965700</updated>
-      <workItem from="1731427966725" duration="1000" />
+      <workItem from="1731427966725" duration="3338000" />
+      <workItem from="1731768361503" duration="1565000" />
+      <workItem from="1731792277022" duration="3261000" />
+      <workItem from="1731884571120" duration="3000" />
+      <workItem from="1731964491979" duration="9731000" />
+      <workItem from="1732025307224" duration="188000" />
+      <workItem from="1732026141065" duration="999000" />
+      <workItem from="1732361333353" duration="1156000" />
+      <workItem from="1732383533171" duration="140000" />
+      <workItem from="1732384153761" duration="1222000" />
+      <workItem from="1732453557286" duration="2548000" />
+      <workItem from="1732456196771" duration="544000" />
+      <workItem from="1732463734784" duration="1707000" />
+      <workItem from="1732465814549" duration="6386000" />
+      <workItem from="1732480061031" duration="5530000" />
+      <workItem from="1732542400995" duration="555000" />
+      <workItem from="1732569930131" duration="2842000" />
+      <workItem from="1732612110499" duration="6034000" />
+      <workItem from="1732625301392" duration="1136000" />
+      <workItem from="1732640524217" duration="684000" />
+      <workItem from="1732695742481" duration="223000" />
+      <workItem from="1732818531730" duration="2701000" />
+      <workItem from="1732825058270" duration="929000" />
+      <workItem from="1733089391838" duration="6822000" />
+      <workItem from="1733098896703" duration="1033000" />
+      <workItem from="1733137836334" duration="2575000" />
+      <workItem from="1733146891001" duration="3627000" />
+      <workItem from="1733175144891" duration="2202000" />
+      <workItem from="1733231395443" duration="117000" />
+      <workItem from="1733231906358" duration="114000" />
+      <workItem from="1733235060327" duration="2907000" />
+      <workItem from="1733243762830" duration="1759000" />
+      <workItem from="1733261655142" duration="1218000" />
+      <workItem from="1733438068656" duration="2248000" />
+      <workItem from="1733580099120" duration="10139000" />
+      <workItem from="1733693313451" duration="2000000" />
+      <workItem from="1733824960568" duration="4508000" />
+      <workItem from="1734078274755" duration="5791000" />
+      <workItem from="1734192118826" duration="10908000" />
+      <workItem from="1734204462024" duration="518000" />
+      <workItem from="1734281556643" duration="819000" />
+      <workItem from="1734286039156" duration="612000" />
+      <workItem from="1734304262126" duration="2262000" />
+      <workItem from="1734347565068" duration="639000" />
+      <workItem from="1734373202311" duration="12433000" />
+      <workItem from="1734393390364" duration="3000" />
+      <workItem from="1734424784572" duration="4278000" />
+      <workItem from="1734451060473" duration="2478000" />
+      <workItem from="1734454466337" duration="751000" />
+      <workItem from="1734462677583" duration="128000" />
+      <workItem from="1734568938960" duration="454000" />
+      <workItem from="1734614908529" duration="2825000" />
+      <workItem from="1734802827158" duration="2503000" />
+      <workItem from="1734810856667" duration="7000" />
+      <workItem from="1734965446908" duration="863000" />
+      <workItem from="1734992830550" duration="865000" />
     </task>
     <servers />
   </component>
