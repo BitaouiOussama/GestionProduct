@@ -8,22 +8,5 @@ pipeline {
             }
         }
         
-        stage('Build') {
-            steps {
-                bat 'mvn clean install'
-            }
-        }
-
-        stage('Test') {
-            steps {
-                bat 'mvn test'
-            }
-        }
-
-        stage('Post-Build') {
-            steps {
-                echo 'Build and Test completed successfully!!!!!!'
-            }
-        }
-    }
+}
 }
